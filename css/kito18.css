@@ -638,19 +638,30 @@ li {
 
 .templatemo-footer {
 	border-top: 2px solid #cccccc;
-	margin-top: 1%;
+	margin-top: 20px;
+	padding: 40px 0 60px 0;
 }
 
 .footer_container {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer_container > img {
+	width: 15%;
 }
 
 .footer_bottom_content {
-	margin: auto;
-	margin-bottom: 30px;
+	margin-right: 45px;
 	font-size: 14px;
-	color: #333333;
+	color: #f5b321;
+}
+.footer_bottom_content > a,
+a:hover {
+	color: #f5b321;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 15px;
 }
 
 .social-icon-fb {
