@@ -909,6 +909,17 @@ ul.templatemo-project-gallery li a img:hover {
 	}
 }
 
+.img-galary {
+	width: 84px;
+	height: 48px;
+	object-fit: cover;
+	border: 2px solid #fff;
+	background: #888;
+}
+.img-galary:hover {
+	cursor: pointer;
+}
+
 /*----------------------------------------------------*/
 
 @media (min-width: 991px) and (max-width: 1200px) {
