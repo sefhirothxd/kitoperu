@@ -74,6 +74,8 @@ p {
 
 .navbar-default .navbar-nav > li > a {
 	color: #f5b321;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 /*-- form contacto--*/
@@ -547,6 +549,8 @@ li {
 
 .txt_orange {
 	color: #f5b321;
+	font-size: 16px;
+	font-weight: 400;
 }
 .txt_black2 {
 	color: black;
@@ -655,13 +659,14 @@ li {
 	margin-right: 45px;
 	font-size: 14px;
 	color: #f5b321;
+	font-weight: 400;
 }
 .footer_bottom_content > a,
 a:hover {
 	color: #f5b321;
 	text-decoration: none;
 	font-weight: 400;
-	font-size: 15px;
+	/* font-size: 15px; */
 }
 
 .social-icon-fb {
