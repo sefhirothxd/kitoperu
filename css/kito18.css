@@ -992,6 +992,7 @@ ul.templatemo-project-gallery li a img:hover {
 }
 .card-product {
 	width: 200px;
+	min-height: 205px;
 	position: relative;
 	box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.29);
 	-webkit-box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.29);
@@ -1005,7 +1006,9 @@ ul.templatemo-project-gallery li a img:hover {
 }
 .card-product > .card-product-text {
 	background: #f5b321;
-	padding: 10px 25px 5px;
+	padding: 10px 5px 5px 25px;
+	min-height: 80px;
+	max-height: 100px;
 }
 .card-product > .card-product-text h3::before {
 	content: '';
@@ -1067,7 +1070,7 @@ ul.templatemo-project-gallery li a img:hover {
 	padding: 10px 0 10px 30px;
 	color: #fff;
 	position: relative;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: bold;
 }
 .card-product__options a:hover {
@@ -1078,7 +1081,7 @@ ul.templatemo-project-gallery li a img:hover {
 	position: absolute;
 	width: 0;
 	height: 0;
-	top: 17px;
+	top: 12px;
 	left: 20px;
 	border-left: 6px solid #fff;
 	border-top: 6px solid transparent;

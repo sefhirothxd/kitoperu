@@ -1,0 +1,93 @@
+.container1 {
+	margin: 0 auto;
+	width: 250px;
+	height: 200px;
+	position: relative;
+	perspective: 1000px;
+	top: 50px;
+}
+
+.carousel1 {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+
+.item1 {
+	display: block;
+	position: absolute;
+	background: #000;
+	width: 250px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 5em;
+	text-align: center;
+	color: #fff;
+	opacity: 0.95;
+	border-radius: 10px;
+}
+
+.a {
+	transform: rotateY(0deg) translateZ(250px);
+	background: #ed1c24;
+}
+.b {
+	transform: rotateY(60deg) translateZ(250px);
+	background: #0072bc;
+}
+.c {
+	transform: rotateY(120deg) translateZ(250px);
+	background: #39b54a;
+}
+.d {
+	transform: rotateY(180deg) translateZ(250px);
+	background: #f26522;
+}
+.e {
+	transform: rotateY(240deg) translateZ(250px);
+	background: #630460;
+}
+.f {
+	transform: rotateY(300deg) translateZ(250px);
+	background: #8c6239;
+}
+.g {
+	transform: rotateY(360deg) translateZ(250px);
+	background: #8c6239;
+}
+.siguiente,
+.anterior {
+	color: white;
+	position: absolute;
+	top: 20px;
+	padding: 1em 2em;
+	cursor: pointer;
+	background: #f5b321;
+	border-radius: 5px;
+	border-top: 1px solid #fff;
+	box-shadow: 0 5px 0 #000;
+	transition: box-shadow 0.1s, top 0.1s;
+}
+.siguiente:hover,
+.anterior:hover {
+	color: #000;
+}
+.siguiente:active,
+.anterior:active {
+	top: 24px;
+	box-shadow: 0 1px 0 #999;
+}
+.siguiente {
+	right: 15em;
+}
+.anterior {
+	left: 0em;
+}
+
+@media (max-width: 991px) {
+	.siguiente {
+		right: 0em;
+	}
+}

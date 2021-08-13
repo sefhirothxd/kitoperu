@@ -38,13 +38,9 @@
 		<link href="js/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
 		<link href="css/kito19.css" rel="stylesheet" type="text/css" />
 		<link href="css/dialog.css" rel="stylesheet" type="text/css" />
-		<!-- <link rel="stylesheet" href="./css/modal.css" /> -->
+		<link rel="stylesheet" href="./css/modal.css" />
 		<!-- caroousel -->
-
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/flickity@2/dist/flickity.min.css"
-		/>
+		<link href="css/carousel.css" rel="stylesheet" type="text/css" />
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -305,36 +301,58 @@
 			<div class="container-more-products__content">
 				<div class="container-title-controller">
 					<h3>Otros productos que te pueden interesar</h3>
-					<div class="container-controller-carousel" style="display: none">
-						<div class="anterior">
-							<span class="material-icons flechas flecha-iz"> west </span>
-						</div>
+					<div class="container-controller-carousel">
 						<div class="siguiente">
-							<span class="material-icons flechas flecha-de"> east </span>
+							<span class="material-icons"> east </span>
+						</div>
+						<div class="anterior">
+							<span class="material-icons"> west </span>
 						</div>
 					</div>
 				</div>
-				<div class="container-corousel-recomendados">
-					<div class="carousel" data-flickity='{ "freeScroll": true }'>
+				<div class="container1">
+					<div class="carousel1">
 						<img
-							class="carousel-cell"
-							src="images/galeria/kito mando1.jpg"
-							alt=""
-						/>
-						<img
-							class="carousel-cell"
-							src="images/galeria/kito mando2.jpg"
-							alt=""
-						/>
-						<img
-							class="carousel-cell"
+							class="item1 a"
 							src="images/galeria/kito tecle1.jpg"
 							alt=""
+							srcset=""
 						/>
 						<img
-							class="carousel-cell"
+							class="item1 b"
 							src="images/galeria/kito tecle12.jpg"
 							alt=""
+							srcset=""
+						/>
+						<img
+							class="item1 c"
+							src="images/galeria/kito tecle13.jpg"
+							alt=""
+							srcset=""
+						/>
+						<img
+							class="item1 d"
+							src="images/galeria/kito tecle14.jpg"
+							alt=""
+							srcset=""
+						/>
+						<img
+							class="item1 e"
+							src="images/galeria/kito tecle15.jpg"
+							alt=""
+							srcset=""
+						/>
+						<img
+							class="item1 f"
+							src="images/galeria/kito tecle2.jpg"
+							alt=""
+							srcset=""
+						/>
+						<img
+							class="item1 g"
+							src="images/galeria/kito tecle3.jpg"
+							alt=""
+							srcset=""
 						/>
 					</div>
 				</div>
@@ -473,7 +491,6 @@
 		></script>
 		<script src="js/templatemo_script.js" type="text/javascript"></script>
 		<script src="assets/js/script.js"></script>
-		<!-- carousel -->
-		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<script src="js/carousel.js"></script>
 	</body>
 </html>

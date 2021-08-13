@@ -1103,6 +1103,48 @@ ul.templatemo-project-gallery li a img:hover {
 	list-style: none;
 }
 
+.container-more-products__content {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.container-controller-carousel {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 15px;
+}
+.flechas {
+	color: #f5b321;
+	font-size: 30px;
+}
+.flecha-iz {
+	margin-right: 60px;
+}
+.container-title-controller {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	/* height: 300px; */
+	justify-content: center;
+}
+.container-corousel-recomendados {
+	width: 40%;
+}
+.carousel-cell {
+	width: 70%;
+}
+.container-title-controller h3 {
+	color: #f5b321;
+	font-size: 25px;
+	font-weight: 700;
+	width: 60%;
+}
+.flickity-page-dots {
+	display: none;
+}
+
 @media (max-width: 991px) {
 	.container-perfil-main {
 		flex-direction: column-reverse;
@@ -1126,6 +1168,19 @@ ul.templatemo-project-gallery li a img:hover {
 		line-height: 1.2;
 		margin-top: 20px;
 	}
+
+	.container-more-products__content {
+		flex-direction: column;
+	}
+	.container-title-controller {
+		width: 100%;
+	}
+	.container-title-controller h3 {
+		width: 100%;
+	}
+	.container-corousel-recomendados {
+		width: 100%;
+	}
 }
 
 @media (max-width: 500px) {
@@ -1138,6 +1193,9 @@ ul.templatemo-project-gallery li a img:hover {
 	.container-img {
 		height: 500px;
 		margin-bottom: 40px;
+	}
+	.container-title-controller h3 {
+		font-size: 18px;
 	}
 }
 
@@ -1269,3 +1327,5 @@ ul.templatemo-project-gallery li a img:hover {
 		width: 11%;
 	}
 }
+
+/*pxicel art*/
