@@ -64,7 +64,7 @@ p {
 /*.templatemo-top-menu .black{ background:#000;}*/
 
 .templatemo-top-menu .navbar-toggle {
-	margin-top: 1%;
+	margin-top: 20px;
 }
 
 .templatemo-top-menu .navbar-brand {
@@ -293,7 +293,7 @@ li {
 	font-size: 20px;
 }
 .container-email-header {
-	width: 100%;
+	/* width: 100%; */
 	display: flex;
 	justify-content: flex-end;
 	margin: 0;
@@ -650,6 +650,7 @@ li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-left: 10px;
 }
 .footer_container > img {
 	width: 15%;
@@ -912,6 +913,32 @@ ul.templatemo-project-gallery li a img:hover {
 		width: 50%;
 		margin-bottom: 40px;
 	}
+	.navbar-header {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+}
+@media (max-width: 650px) {
+	.container-numeros {
+		flex-direction: column;
+		padding-left: 20px;
+	}
+	.container-number-header {
+		flex-direction: column;
+	}
+	.container-email-header {
+		justify-content: flex-start;
+		width: 100%;
+	}
+}
+@media (max-width: 520px) {
+	.container-exito__descripcion-contant {
+		width: 90%;
+		margin-bottom: 40px;
+	}
 }
 
 .img-galary {
@@ -925,6 +952,66 @@ ul.templatemo-project-gallery li a img:hover {
 	cursor: pointer;
 }
 
+/*products*/
+
+#templatemo-productos {
+	padding: 20px 0 120px;
+}
+
+.container-cards-products {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	column-gap: 15px;
+}
+.text-product-main {
+	text-transform: uppercase;
+	color: #000;
+	text-align: center;
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+.card-product {
+	width: 200px;
+}
+
+.card-product img {
+	width: 100%;
+	height: 130px;
+	object-fit: cover;
+}
+.card-product > div {
+	background: #f5b321;
+	padding: 10px 25px 5px;
+}
+.card-product > div h3::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 2px;
+	left: -15px;
+	border-left: 8px solid #000;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.card-product > div h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 900;
+	position: relative;
+	color: #000;
+}
+
+.card-product > div p {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	/* margin-top: 5px; */
+}
 /*----------------------------------------------------*/
 
 @media (min-width: 991px) and (max-width: 1200px) {
