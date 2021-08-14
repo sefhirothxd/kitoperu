@@ -343,7 +343,7 @@ img {
 .img-responsive {
 	display: block;
 	height: auto;
-	max-width: 100%;
+	width: 100%;
 }
 
 .img-rounded {
@@ -7266,7 +7266,7 @@ td.visible-print {
 		height: 40px;
 		line-height: 35px;
 		bottom: 10px;
-		right: 10px;
+		right: 5px;
 	}
 	.whatsapp svg {
 		transition: 0.3s;
