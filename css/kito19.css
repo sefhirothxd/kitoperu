@@ -659,7 +659,7 @@ li {
 
 .templatemo-footer {
 	border-top: 2px solid #cccccc;
-	margin-top: 20px;
+	margin-top: 80px;
 	padding: 40px 0 60px 0;
 }
 
@@ -972,6 +972,10 @@ ul.templatemo-project-gallery li a img:hover {
 }
 
 /*products*/
+
+.main-container {
+	min-height: 40vw;
+}
 
 #templatemo-productos {
 	padding: 20px 0 120px;
