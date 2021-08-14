@@ -43,7 +43,7 @@
 
 		<link
 			rel="stylesheet"
-			href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+			href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"
 		/>
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -305,37 +305,38 @@
 			<div class="container-more-products__content">
 				<div class="container-title-controller">
 					<h3>Otros productos que te pueden interesar</h3>
-					<div class="container-controller-carousel" style="display: none">
+					<div class="container-controller-carousel">
 						<div class="anterior">
-							<span class="material-icons flechas flecha-iz"> west </span>
+							<span
+								class="material-icons flechas flecha-iz glider-prev"
+								aria-label="Previous"
+							>
+								west
+							</span>
 						</div>
 						<div class="siguiente">
-							<span class="material-icons flechas flecha-de"> east </span>
+							<span
+								class="material-icons flechas flecha-de glider-next"
+								aria-label="Next"
+							>
+								east
+							</span>
 						</div>
 					</div>
 				</div>
 				<div class="container-corousel-recomendados">
-					<div class="carousel" data-flickity='{ "freeScroll": true }'>
-						<img
-							class="carousel-cell"
-							src="images/galeria/kito mando1.jpg"
-							alt=""
-						/>
-						<img
-							class="carousel-cell"
-							src="images/galeria/kito mando2.jpg"
-							alt=""
-						/>
-						<img
-							class="carousel-cell"
-							src="images/galeria/kito tecle1.jpg"
-							alt=""
-						/>
-						<img
-							class="carousel-cell"
-							src="images/galeria/kito tecle12.jpg"
-							alt=""
-						/>
+					<div class="glider-contain">
+						<div class="glider">
+							<img src="images/galeria/kito mando1.jpg" alt="" srcset="" />
+							<img src="images/galeria/kito mando2.jpg" alt="" srcset="" />
+							<img src="images/galeria/kito tecle1.jpg" alt="" srcset="" />
+							<img src="images/galeria/kito tecle12.jpg" alt="" srcset="" />
+							<img src="images/galeria/kito tecle13.jpg" alt="" srcset="" />
+						</div>
+
+						<!-- <button aria-label="Previous" class="glider-prev">«</button>
+						<button aria-label="Next" class="glider-next">»</button> -->
+						<!-- <div role="tablist" class="dots"></div> -->
 					</div>
 				</div>
 			</div>
@@ -474,6 +475,7 @@
 		<script src="js/templatemo_script.js" type="text/javascript"></script>
 		<script src="assets/js/script.js"></script>
 		<!-- carousel -->
-		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<script src="js/glider.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 	</body>
 </html>

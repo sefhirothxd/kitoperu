@@ -1114,13 +1114,18 @@ ul.templatemo-project-gallery li a img:hover {
 	display: flex;
 	justify-content: flex-start;
 	margin-top: 15px;
+	position: relative;
 }
 .flechas {
-	color: #f5b321;
+	color: #f5b321 !important;
 	font-size: 30px;
 }
 .flecha-iz {
 	margin-right: 60px;
+	left: 0px !important;
+}
+.flecha-de {
+	right: 400px !important;
 }
 .container-title-controller {
 	display: flex;
@@ -1130,7 +1135,7 @@ ul.templatemo-project-gallery li a img:hover {
 	justify-content: center;
 }
 .container-corousel-recomendados {
-	width: 40%;
+	width: 50%;
 }
 .carousel-cell {
 	width: 70%;
@@ -1180,6 +1185,9 @@ ul.templatemo-project-gallery li a img:hover {
 	}
 	.container-corousel-recomendados {
 		width: 100%;
+	}
+	.container-controller-carousel {
+		display: none;
 	}
 }
 
