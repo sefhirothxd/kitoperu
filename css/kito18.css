@@ -446,6 +446,8 @@ li {
 .templatemo-line-header {
 	margin-top: 40px;
 	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
 }
 
 .member-thumb:hover .thumb-overlay {
@@ -494,7 +496,7 @@ li {
 
 .row_team {
 	margin-left: -50px;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .row_team li {
@@ -541,6 +543,8 @@ li {
 
 .txt_darkgrey {
 	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
 }
 .txt_black a {
 	color: #000;
@@ -596,7 +600,7 @@ li {
 	background: #8996a0;
 }
 #templatemo-contact {
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	border-top: 1px solid #cccccc;
 	font-size: 14px;
 }
@@ -606,7 +610,7 @@ li {
 }
 
 .head_contact {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	margin-bottom: 0;
 }
 
@@ -1227,6 +1231,11 @@ ul.templatemo-project-gallery li a img:hover {
 		float: right;
 		margin-bottom: 40px;
 	}
+	.templatemo-project-box {
+		width: 70%;
+		margin: 0 auto;
+		object-fit: cover;
+	}
 }
 
 @media (max-width: 380px) {
@@ -1279,5 +1288,9 @@ ul.templatemo-project-gallery li a img:hover {
 @media (max-width: 410px) {
 	.team_hr {
 		width: 11%;
+	}
+	.templatemo-project-box {
+		width: 100%;
+		object-fit: cover;
 	}
 }
