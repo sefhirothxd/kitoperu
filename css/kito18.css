@@ -993,11 +993,14 @@ ul.templatemo-project-gallery li a img:hover {
 	font-weight: 700;
 	font-size: 25px;
 	margin-bottom: 40px;
+	position: relative;
 }
+
 .card-product {
 	width: 200px;
 	min-height: 205px;
 	position: relative;
+	background-color: #f5b321;
 	box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.29);
 	-webkit-box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.29);
 	-moz-box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.29);
@@ -1292,5 +1295,10 @@ ul.templatemo-project-gallery li a img:hover {
 	.templatemo-project-box {
 		width: 100%;
 		object-fit: cover;
+	}
+}
+@media (max-width: 461px) {
+	.card-product {
+		width: 80%;
 	}
 }
