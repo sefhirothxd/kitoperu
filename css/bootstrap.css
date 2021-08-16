@@ -7262,16 +7262,16 @@ td.visible-print {
 }
 @media (max-width: 500px) {
 	.whatsapp {
-		width: 40px;
-		height: 40px;
-		line-height: 35px;
+		width: 45px;
+		height: 45px;
+		/* line-height: 35px; */
 		bottom: 10px;
-		right: 5px;
+		right: 10px;
 	}
 	.whatsapp svg {
 		transition: 0.3s;
-		width: 26px;
-		margin-top: 0;
+		width: 30px;
+		margin-top: 2px;
 	}
 	.carousel-indicators {
 		display: none;

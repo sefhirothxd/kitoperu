@@ -657,7 +657,7 @@ li {
 	padding-left: 10px;
 }
 .footer_container > img {
-	width: 15%;
+	width: 20%;
 }
 
 .footer_bottom_content {
@@ -1300,5 +1300,8 @@ ul.templatemo-project-gallery li a img:hover {
 @media (max-width: 461px) {
 	.card-product {
 		width: 80%;
+	}
+	.footer_container > img {
+		width: 30%;
 	}
 }

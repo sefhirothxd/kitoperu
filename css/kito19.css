@@ -670,7 +670,7 @@ li {
 	padding-left: 10px;
 }
 .footer_container > img {
-	width: 15%;
+	width: 20%;
 }
 
 .footer_bottom_content {
@@ -974,7 +974,7 @@ ul.templatemo-project-gallery li a img:hover {
 /*products*/
 
 .main-container {
-	min-height: 40vw;
+	min-height: calc(100vh - 370px);
 }
 
 #templatemo-productos {
@@ -1155,6 +1155,9 @@ ul.templatemo-project-gallery li a img:hover {
 }
 
 @media (max-width: 991px) {
+	.main-container {
+		margin-bottom: 60px;
+	}
 	.container-perfil-main {
 		flex-direction: column-reverse;
 	}
@@ -1337,6 +1340,11 @@ ul.templatemo-project-gallery li a img:hover {
 @media (max-width: 410px) {
 	.team_hr {
 		width: 11%;
+	}
+}
+@media (max-width: 461px) {
+	.footer_container > img {
+		width: 30%;
 	}
 }
 
