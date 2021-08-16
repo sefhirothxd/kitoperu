@@ -1073,6 +1073,7 @@ ul.templatemo-project-gallery li a img:hover {
 	align-items: center;
 	margin-top: 40px;
 }
+
 .container-btn-perfil > button {
 	background-color: #f5b321;
 	color: #000;
@@ -1085,14 +1086,24 @@ ul.templatemo-project-gallery li a img:hover {
 	-webkit-box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.29);
 	-moz-box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.29);
 }
-.container-btn-perfil > a {
+.container-btn-perfil__dowload > a {
 	font-size: 20px;
 	color: #f5b321;
 	font-weight: 700;
+	text-decoration: none;
 }
-.container-btn-perfil a:hover {
+
+.container-btn-perfil__dowload a:hover {
 	font-size: 20px;
 	color: #f5b321;
+}
+.container-btn-perfil__dowload {
+	display: flex;
+	align-items: center;
+	color: #f5b321;
+}
+.container-btn-perfil__dowload span {
+	margin-left: 4px;
 }
 
 .carousel-indicators {
@@ -1172,6 +1183,7 @@ ul.templatemo-project-gallery li a img:hover {
 		width: 100%;
 		flex-wrap: wrap;
 	}
+
 	.container-perfil__text > p {
 		text-align: justify;
 		padding: 0 0 0 0;
